@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+	<meta name="viewport" content="width=device-width;initial-scale=0">
+
+	<link rel="stylesheet" href="css/14_my-one_page.css" type="text/css" media="screen">
+	<title>Página simples em HTML5 e CSS3 - MQ</title>
+	<!-- Salvar como: 04_intro_mediaqueries -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<main>
+		<div id="home" class="conteudo">
+			<header>
+				<hgroup>
+					<h1>Meu Site</h1>
+					<h3>Empresa expecializada na área de TI</h3>
+				</hgroup>
+				<nav class="nav nav-aberta">
+					<!-- ul>li*4>a -->
+					<ul class="listaNav">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#destaque1">Destaque</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+
+				<div id="banner">
+					<img src="img/banner3.png" style="width:100%" alt="">
+				</div>
+				<div id="intro">
+					<h3>Introdução</h3>
+					<!-- lorem33 -->
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, quod?</p>
+					<!-- lorem4 -->
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, in.</p>
+				</div>
+			</section>
+			<!-- section>article>h1 -->
+			<section>
+				<article>
+					<!-- lorem5 -->
+					<h1>Realizações</h1>
+					<!-- lorem100 -->
+					<p></p>
+					<div id="destaque1" class="destaques">
+						<!-- lorem3 -->
+						<h2>Missão</h2>
+						<!-- lorem20 -->
+						<p>Minha principal missão, é fazer com que o mundo seja melhor. Desejo desenvolver programas
+							úteis não só para a uma área especifica e sim que mude o dia a dia das pessoas.</p>
+					</div>
+					<div id="destaque2" class="destaques">
+						<!-- lorem3 -->
+						<h2>Visão</h2>
+						<!-- lorem20 -->
+						<p>O mundo pode melhorar, basta as pessoas ve-lo de forma diferente no sentido de ter mais
+							cuidado
+							com a natureza, fauna e flora.</p>
+					</div>
+					<div id="destaque3" class="destaques">
+						<!-- lorem3 -->
+						<h2>Valores</h2>
+						<!-- lorem20 -->
+						<p>Uma pessoa paciente que tem em mente ajudar as pessoas e fazer o melhor para vê-las sorrir.
+						</p>
+					</div>
+					<!-- lorem2 -->
+					<h4>Curiosidades</h4>
+					<!-- lorem100 -->
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita reiciendis commodi,
+						molestiae, praesentium facilis delectus et ipsa facere, molestias illo a corporis. Minus
+						praesentium autem aperiam totam quae necessitatibus, dignissimos quisquam eum natus labore
+						esse ad et atque placeat non aliquam nulla aspernatur officia, quis eligendi officiis. Ab
+						doloribus a quia qui asperiores odit possimus laboriosam enim mollitia eos magnam magni
+						quasi praesentium accusantium quod, deleniti consequatur! Tempora, iste perferendis
+						laboriosam facilis non temporibus ullam obcaecati consequuntur, sint quae sunt quaerat
+						sapiente ad illum delectus exercitationem accusamus autem animi quis repellendus maxime,
+						corrupti dolore nisi dolores! Tenetur, nulla deserunt!</p>
+				</article>
+			</section>
+		</div>
+		<aside>
+			<div id="sobre">
+				<h3>Sobre Nós</h3>
+				<!-- lorem30 -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius consequatur sunt at, dolore tempora
+					suscipit perspiciatis ut animi ipsa quo obcaecati minus pariatur magni autem temporibus minima.
+					Dolores, suscipit!</p>
+				<!-- lorem3 -->
+				<p>Lorem ipsum dolor.</p>
+			</div>
+			<div id="busca">
+				<form action="http://www.google.com.br/search" method="get" target="_blank" id="form_busca">
+					<label for="q">Procurar:</label>
+					<input type="text" name="q" id="q" placeholder="Pesquise Aqui">
+					<input type="submit" value="Pesquisar">
+				</form>
+			</div>
+			<div id="news">
+				<h3>News</h3>
+				<!-- ul>li*3>a -->
+				<ul>
+					<li><a href="https://www.xdguru.com/" target="_blank">XD Guru </a></li>
+					<li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+					<li><a href="https://codemyui.com/" target="_blank">Codemy</a></li>
+				</ul>
+			</div>
+			<div id="boletim">
+				<h3>Email Newsletter</h3>
+				<p>Cadastre seu email para receber o nosso boletim com novidades:</p>
+				<form action="#" method="post" id="form_boletim">
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" placeholder="Digite seu email">
+					<input type="submit" value="Cadastrar">
+				</form>
+			</div>
+		</aside>
+		<footer id="contato">
+			<p>
+				Developed by Iwanezuk&trade;<br>
+				Site exemplo para atividade acadêmica.
+			</p>
+			<p>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14625.410277127503!2d-48.0526792!3d-23.5916853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ec0870ce87bb6fd!2sSenac+Itapetininga!5e0!3m2!1spt-BR!2sbr!4v1553285995933"
+					frameborder="0" style="border:0" allowfullscreen></iframe>
+			</p>
+		</footer>
+	</main>
+	<script src="js/14_menu_flex.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+/* Salvar como: 04_intro_mediaqueries.css */
+@charset "utf-8";
+/* CSS Document */
+/* --------- ATRIBUINDO RESETS -----------*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main, header,nav,section,article,aside,footer,figure,figure img,hgroup{
+    display: block;
+}
+
+a image{border: 0;}
+figure{position: relative;}
+
+/* --------- ESTILOS GERAIS-----------*/
+body{
+    background: #368282;
+    font: normal 12px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main,nav,div,section,article,aside,footer{
+    border-radius: 15px;
+}
+
+/* --------- ESTILOS TEXTUAIS-----------*/
+h1,h2,h3,h4,h5,h6,p{
+    display: block;
+    line-height: 1.2em;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+h1,h4{
+    /* Espaço entre as letras */
+    letter-spacing: -1px;
+}
+
+h2,h3{
+    /* Deixar em maiusculo */
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 300%;
+    text-shadow: -3px -3px 3px #000;
+}
+
+h2{
+    font-size: 100%;
+}
+
+h3{
+    font-size: 110%;
+}
+
+h4{
+    font-size: 200%;
+}
+
+a{
+    text-decoration: none;
+    color: #2485A7;
+}
+
+a:hover{
+    color: #116E8F;
+}
+
+article p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h4 + p{
+    font-size: 120%;
+    text-shadow: -1px -1px 0 #C5C5C5;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+}
+
+/* --------- ESTILOS LAYOUT -----------*/
+main{
+    /* Limitar a expansão do layout */
+    max-width: 960px;
+    /* Limitar a redução do layout */
+    min-width: 228px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.conteudo{
+    background: #247BA0;
+    position: relative;  
+    float: left; 
+    width: 76%;
+    min-width: 228px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    margin: 40px 0 60px 0;
+    padding: 20px;
+}
+
+header h1{
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 20px;
+}
+
+header h3{
+    position: absolute;
+    float: right;
+    top: 50px;
+    right: 20px;
+    text-transform: none;
+    font-style: italic;
+    color: #FFF;
+}
+
+.destaques{
+    display: block;
+    width: 100%;
+    margin: 3% 3% 3% 0;
+    padding: 0px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+}
+
+.destaques h2{
+    font-size: 120%;
+    border-bottom: 1px dashed #FFF;
+}
+
+.destaques p{
+    font-style: italic;
+}
+
+#curiosidades{
+    font-size: 200px;
+}
+
+#destaque1 h2{
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+#banner{
+    margin: -60px 0 10px -30px;
+}
+
+#intro{
+    background: #9013FE;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #FFF;
+    clear: both;
+    padding: 5px 10px 0 10px;
+}
+
+#intro h3{
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+#intro h3:hover{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #F87364;
+    width: 14%;
+    cursor: pointer;
+}
+
+/* --------- NAVEGAÇÃO -----------*/
+/* aqui vai a nav-toogle */
+.nav-toogle{
+    display: none;
+}
+
+nav{
+    background-color: #333;
+    width: 100%;
+    overflow: auto;
+    text-transform: uppercase;
+}
+
+nav a{
+    border: none;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    width: 23%;
+    border-radius: 0;
+    float: left;
+    text-align: center;
+    margin: 0 1%;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #F87364;
+    margin: 10px 2px;
+    color: #FFF;
+    font-weight: bolder;
+}
+
+/* --------- BARRA LATERAL -----------*/
+aside{
+    position: relative;
+    float: left;
+    width: 22%;
+    min-width: 228px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #FFF;
+    margin-left: 1px;
+    overflow: hidden;
+}
+
+#sobre,#busca,#news,#boletim{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#sobre{
+    background: #368282;
+    border: 1px dashed #B2B2CF;
+    box-shadow: 0 3px 5px #888;
+    border-radius: 5px;
+    /* propriedade especifica sobrepões geral */
+}
+
+#sobre h3,p{
+    color: #FFF;
+}
+#busca{
+    margin-top: 20px;
+    background: #368282;
+    overflow: auto;
+    box-shadow: 0 3px 5px #888;
+}
+
+input[type=text]{
+    border: 1px solid #888;
+    background: #FFF;
+    padding: .2em;
+    border-radius: 10px;
+}
+
+input[type=text]:hover{
+    box-shadow: 0 3px 5px #888;
+}
+
+input[type=text]:focus{
+    outline: none;
+    border-radius: 0px;
+}
+
+input[type=submit]{
+    background: #2680EB;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+
+#news{
+    font-size: small;
+}
+
+#news h3{
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+#news ul{
+    list-style: none;
+}
+
+#news li{
+    margin: 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #000;
+}
+
+#news a{
+    color: #C82C3F;
+    transition-duration: 0.4s;
+}
+
+#news a:hover{
+    color: #000;
+    border-bottom: 2px solid #F87364;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#boletim{
+    background: #368282;
+    overflow: auto;
+}
+
+#boletim h3{
+   color: #FFF;
+}
+
+#form_boletim input[type=text],#form_busca input[type=text]{
+    width: 98%;
+    margin-bottom: 5px;
+}
+
+/* --------- RODAPÉ -----------*/
+footer{
+    clear: both;
+    display: block;
+    background: #F3FFBD;
+    width: 76%;
+    min-width: 228px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+footer p{
+    color: #555;
+    font-size: .9em;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+
+footer p iframe{
+    width: 100%;
+}
+
+/* Carousel */
+
+/* O @media aplica configurações especificas para alguns dispositivos; 
+principalmente com base no tamanho da tela, orientando a "responder" de determinada maneira */
+
+/* --------- DEKTOPS E TELAS MAIORES >> lg  -----------*/
+@media screen and (min-width:1068px){
+    main{
+        max-width: 1240px;
+        padding: 20px 30px;
+        overflow: hidden;
+    }
+}
+
+/* --------- TABLETS MAIORES NA VERTICAL >> md  -----------*/
+@media screen and (max-width:1068px) and (min-width:780px){
+    main{
+        width: 100%;
+        padding: 10px;
+    }
+    .conteudo,footer{
+        float: left;
+        width: 70%;
+    }
+    aside{width: 20%;}
+    #intro h3:hover{
+        width: 20%;
+    }
+}
+
+/* --------- TABLETS MENORES E CELULARES >> sm  -----------*/
+@media screen and (max-width:780px) and (min-width:320px){
+    main{
+        width: 95%;
+        padding: 5px;
+    }
+    .conteudo,footer,aside{
+        width: 100%;
+    }
+    #intro h3:hover{
+        width: 23%;
+    }
+}
+
+/* --------- CELULARES MENORES >> xs  -----------*/
+@media screen and (max-width:480px) and (min-width:320px){
+    nav{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        clear: both;
+        width: 100%;
+        display: inline-block;
+        border-radius: 10px;
+    }
+    div.destaques{
+        width: 98%;
+    }
+    h4 + p{  
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        -o-column-count: 1;
+        column-count: 1;
+    }
+    .nav .nav-aberta{
+        position: relative;
+        padding: 0 0 0.5em 0;
+        height: 0;
+    }
+    .nav{
+        overflow: hidden;
+    }
+    .nav-toogle{
+        display: block;
+        padding: .4em;
+        background: #DDD;
+        font-size: 1.4em;
+        padding-bottom: 0;
+    }
+    .nav-toogle span{
+        font-weight: bolder;
+        color: #2485A7;
+    }
+    .listanav li a{
+        font-size: 1.2em;
+    }
+    .listaNav li:first-child{
+        margin-top: .4em;
+    }
+    #intro h3:hover{
+        width: 47%;
+    }
+}
+
+/* --------- TELAS MÍNIMAS >> xxs  -----------*/
+@media screen and (max-width:320px){
+    main{
+        width: 98%;
+        padding: 2px;
+    }
+    .conteudo h3{
+        font-size: x-small;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        clear: both;
+        width: 100%;
+        display: inline-block;
+        border-radius: 10px;
+    }
+    div.destaques{
+        width: 99%;
+    }
+    h4 + p{  
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        -o-column-count: 1;
+        column-count: 1;
+    }
+    .nav .nav-aberta{
+        position: relative;
+        padding: 0 0 0.5em 0;
+        height: 0;
+    }
+    .nav{
+        overflow: hidden;
+    }
+    .nav-toogle{
+        display: block;
+        padding: .4em;
+        background: #DDD;
+        font-size: 1.4em;
+        padding-bottom: 0;
+    }
+    .nav-toogle span{
+        font-weight: bolder;
+        color: #2485A7;
+    }
+    .listanav li a{
+        font-size: 1.2em;
+    }
+    .listaNav li:first-child{
+        margin-top: .4em;
+    }
+    #intro h3:hover{
+        width: 65%;
+    }
+}
