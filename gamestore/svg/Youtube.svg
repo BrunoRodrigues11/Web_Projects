@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="75" viewBox="0 0 81 75">
+  <defs>
+    <clipPath id="clip-Youtube">
+      <rect width="81" height="75"/>
+    </clipPath>
+  </defs>
+  <g id="Youtube" clip-path="url(#clip-Youtube)">
+    <path id="Caminho_274" data-name="Caminho 274" d="M28.063,2827H41.818a28.187,28.187,0,0,1,28.1,28.1v13.755a28.157,28.157,0,0,1-28.1,28.063H28.063A28.15,28.15,0,0,1,0,2868.852V2855.1A28.179,28.179,0,0,1,28.063,2827Z" transform="translate(5.907 -2824.045)" fill="#de0404" fill-rule="evenodd"/>
+    <path id="Caminho_275" data-name="Caminho 275" d="M30.551,2827H36.5a30.62,30.62,0,0,1,30.517,30.551v5.944A30.62,30.62,0,0,1,36.5,2894.046H30.551A30.65,30.65,0,0,1,0,2863.5v-5.944A30.65,30.65,0,0,1,30.551,2827Z" transform="translate(5.907 -2824.045)" fill="red" fill-rule="evenodd"/>
+    <path id="Caminho_276" data-name="Caminho 276" d="M522.627,3468.767a4.294,4.294,0,0,0-3.041-3.042c-2.661-.726-13.409-.726-13.409-.726s-10.748,0-13.444.726a4.354,4.354,0,0,0-3.041,3.042,49.7,49.7,0,0,0,0,16.52,4.355,4.355,0,0,0,3.041,3.042c2.7.726,13.444.726,13.444.726s10.748,0,13.409-.691a4.3,4.3,0,0,0,3.041-3.042,47.561,47.561,0,0,0,0-16.554Zm-19.872,13.409,8.916-5.149-8.916-5.149Z" transform="translate(-466.193 -3439.996)" fill="#fefefe" fill-rule="evenodd"/>
+  </g>
+</svg>

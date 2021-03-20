@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="79" viewBox="0 0 133 79">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="133" height="79"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(-83 -287)">
+      <text id="Bruno" transform="translate(102 334)" fill="#00fe93" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Bruno</tspan></text>
+      <text id="Dev" transform="translate(161 334)" fill="#fff" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Dev</tspan></text>
+    </g>
+  </g>
+</svg>

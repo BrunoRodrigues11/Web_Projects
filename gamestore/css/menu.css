@@ -1,0 +1,51 @@
+.btn-menu{
+    width: 0px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7231CE;
+    border-radius: 4px;
+    position: fixed;
+    top:50px;
+    right: 50px;
+    border: none;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.btn-menu:hover{
+    background-color: #31CEAC;
+}
+
+.btn-menu span{
+    width: 46px;
+    height: 4px;
+    background-color: #FFF;
+    display: block;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    transition: all 0.3s ease-out;
+}
+
+.btn-menu span:nth-child(3){
+    margin-bottom: 0;
+}
+
+.btn-menu-opened span:nth-child(1){
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+} 
+
+.btn-menu-opened span:nth-child(2){
+    opacity: 0;
+} 
+
+.btn-menu-opened span:nth-child(3){
+    transform: rotate(-45deg);  
+    position: relative;
+    top: -10px;
+} 
+

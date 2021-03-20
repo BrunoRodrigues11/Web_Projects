@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="32" viewBox="0 0 192 32">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="192" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <text id="gamestore" transform="translate(18 23)" fill="#12f9af" font-size="31" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">gamestore</tspan></text>
+  </g>
+</svg>

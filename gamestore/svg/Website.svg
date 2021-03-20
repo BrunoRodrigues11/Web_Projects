@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="75" viewBox="0 0 81 75">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_483" data-name="Caminho 483" d="M9166.617,5665h3.232a16.654,16.654,0,0,1,16.6,16.617v3.233a16.638,16.638,0,0,1-16.6,16.6h-3.232a16.654,16.654,0,0,1-16.617-16.6v-3.233A16.671,16.671,0,0,1,9166.617,5665Z" transform="translate(-9144.867 -5661.964)" fill="#fefefe" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-Website">
+      <rect width="81" height="75"/>
+    </clipPath>
+  </defs>
+  <g id="Website" clip-path="url(#clip-Website)">
+    <path id="Caminho_482" data-name="Caminho 482" d="M9178.063,5665h13.755a28.157,28.157,0,0,1,28.1,28.063v13.755a28.187,28.187,0,0,1-28.1,28.1h-13.755a28.18,28.18,0,0,1-28.062-28.1v-13.755A28.15,28.15,0,0,1,9178.063,5665Z" transform="translate(-9144.867 -5661.964)" fill="#0fa4d6" fill-rule="evenodd"/>
+    <g id="Grupo_de_máscara_1" data-name="Grupo de máscara 1" transform="translate(17.564 16.564)" clip-path="url(#clip-path)">
+      <g id="wondicon-ui-free-website_111210" transform="translate(5.133 3.036)">
+        <path id="Caminho_484" data-name="Caminho 484" d="M28.985,47.209A18.224,18.224,0,1,1,47.209,28.985,18.224,18.224,0,0,1,28.985,47.209Zm0-34.04A15.816,15.816,0,1,0,44.8,28.985,15.816,15.816,0,0,0,28.985,13.169Z" transform="translate(-10.761 -10.761)" fill="#fefefe"/>
+        <path id="Caminho_485" data-name="Caminho 485" d="M38.21,47.209c-4.693,0-7.223-9.39-7.223-18.224s2.53-18.224,7.223-18.224,7.223,9.39,7.223,18.224S42.9,47.209,38.21,47.209Zm0-34.04c-1.962,0-4.815,6.161-4.815,15.816A36.538,36.538,0,0,0,35.08,40.619c.9,2.54,2.124,4.182,3.13,4.182,1.962,0,4.815-6.161,4.815-15.816A36.538,36.538,0,0,0,41.34,17.351c-.908-2.54-2.133-4.182-3.13-4.182Z" transform="translate(-19.986 -10.761)" fill="#fefefe"/>
+        <path id="Caminho_486" data-name="Caminho 486" d="M46.005,44.462H11.965a1.2,1.2,0,1,1,0-2.408h34.04a1.2,1.2,0,0,1,0,2.408Z" transform="translate(-10.761 -25.034)" fill="#fefefe"/>
+        <path id="Caminho_487" data-name="Caminho 487" d="M45.718,30.3H15.369a1.2,1.2,0,1,1,0-2.408H45.73a1.2,1.2,0,1,1,0,2.408Z" transform="translate(-12.314 -18.573)" fill="#fefefe"/>
+        <path id="Caminho_488" data-name="Caminho 488" d="M45.718,58.627H15.369a1.2,1.2,0,1,1,0-2.408H45.73a1.2,1.2,0,1,1,0,2.408Z" transform="translate(-12.314 -31.495)" fill="#fefefe"/>
+      </g>
+    </g>
+  </g>
+</svg>
