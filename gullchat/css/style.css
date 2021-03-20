@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#carrosselinicio{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+#form_busca{
+    padding-top: 8px;
+}
+#buscar{
+    height: 4.3vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #0009;
+    font-family: 'Poppins', sans-serif;
+}
+#nav-busca{
+    background-color: #000;
+}
+#nav-busca{
+    background-color: #000;
+    justify-content: center;
+}
+.logo{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.nav-links li{
+    padding-top: 8px;
+    list-style: none;
+    
+}
+.nav-links li:hover{
+    padding-top: 1px;
+    border-bottom: solid 2px #fff;
+    transition: 0.8s all;
+}
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 4px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+
+/* RODAPE */
+#rodape{
+    background-color: #023D5E;
+    padding: 30px 50px;
+}
+.bordaestilo{
+    border-right: solid 1px #fff;
+}
+.title{
+    color: #fff;
+    font-weight: bold;
+}
+.text{
+    color: #fff;
+    padding-bottom: 15px;
+}
+#copyright{
+    background-color: #000;
+    height: 45px;
+    text-align: center;
+    padding: 7px;
+}
+#midiasdiv{background-color: #000;}
+#midias{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#midias li{
+    display: inline;
+}
+#midias li a img{
+    width: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1280px){
+    .nav-links{
+        width: 80%;
+    }
+    .bordaestilo{
+        border: none;
+    }
+    #midias li a img{
+        width: 5%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 80%;
+    }
+    .bordaestilo{
+        border: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        background-color: #000;
+    }
+    input[type=text]{
+        width: 90%;
+    }
+    #logomobile{
+        width: 100%;
+        background-color: #000;
+        text-align: center;
+    }
+    #search{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #0009;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 1;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: list-item;
+    }
+    .bordaestilo{
+        border: none;
+    }
+    #midias li a img{
+        width: 7%;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translate(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-50deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(50deg) translate(-7px,-7px);
+}

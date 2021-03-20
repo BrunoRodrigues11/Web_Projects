@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="340" viewBox="0 0 340 340">
+  <defs>
+    <clipPath id="clip-airplane1">
+      <rect width="340" height="340"/>
+    </clipPath>
+  </defs>
+  <g id="airplane1" clip-path="url(#clip-airplane1)">
+    <path id="airplane_icon_138979" d="M187,138.319V118.845l-77.9-48.685V16.606a14.606,14.606,0,1,0-29.211,0V70.16L2,118.845v19.474l77.9-24.343V167.53L60.422,182.136v14.606L94.5,187l34.08,9.737V182.136L109.108,167.53V113.976Z" transform="translate(75 71)" fill="#fff"/>
+  </g>
+</svg>

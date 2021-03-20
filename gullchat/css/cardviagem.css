@@ -1,0 +1,17 @@
+#dadoscard:hover{
+    box-shadow: 6px 6px 10px #999;
+}
+#dadoscard:hover .efeito{
+    transform: translateX(5%);
+    font-size: 15px;
+    transition: transform 1s ease;
+}
+#conteudo{
+    padding-top: 15px;
+}
+.espacamentotop{
+    padding-top: 10px;
+}
+h4{
+    font-size: 25px;
+}

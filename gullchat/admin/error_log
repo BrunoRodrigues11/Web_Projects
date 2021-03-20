@@ -1,0 +1,582 @@
+[17-Jun-2020 13:32:45 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 10
+[17-Jun-2020 13:32:52 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:32:59 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:33:26 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:21 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:22 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:23 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:24 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:25 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:26 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_atualiza.php on line 35
+[17-Jun-2020 13:36:38 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[17-Jun-2020 13:44:45 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[17-Jun-2020 13:45:11 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:47:09 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:47:09 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:47:18 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:47:23 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:48:18 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:48:19 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:48:22 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 13
+[17-Jun-2020 13:48:31 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 10
+[17-Jun-2020 13:48:32 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 10
+[17-Jun-2020 13:48:32 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 10
+[17-Jun-2020 13:48:48 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 10
+[17-Jun-2020 13:48:59 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 10
+[17-Jun-2020 15:59:49 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:49 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:49 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 15:59:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 15:59:50 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:50 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:50 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 15:59:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 15:59:51 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:51 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:51 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 15:59:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 15:59:52 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:52 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:52 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 15:59:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 15:59:53 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:53 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:53 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 15:59:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 15:59:54 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:54 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:54 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 15:59:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 15:59:57 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:57 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:57 America/Fortaleza] PHP Warning:  mysqli_select_db(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 5
+[17-Jun-2020 15:59:57 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 8
+[17-Jun-2020 15:59:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_lista.php on line 9
+[17-Jun-2020 15:59:59 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 15:59:59 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 15:59:59 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php on line 7
+[17-Jun-2020 15:59:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php on line 9
+[17-Jun-2020 16:00:21 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 16:00:21 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 16:00:21 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php on line 7
+[17-Jun-2020 16:00:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php on line 9
+[17-Jun-2020 16:01:40 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 16:01:40 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 16:01:40 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php on line 7
+[17-Jun-2020 16:01:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/categorias_lista.php on line 9
+[17-Jun-2020 16:01:46 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 9
+[17-Jun-2020 16:01:46 America/Fortaleza] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/Connections/conn_viagens.php on line 11
+[17-Jun-2020 16:01:46 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 8
+[17-Jun-2020 16:01:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 11
+[17-Jun-2020 16:23:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[17-Jun-2020 16:46:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[17-Jun-2020 16:49:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[17-Jun-2020 17:09:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[17-Jun-2020 18:03:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[19-Jun-2020 18:06:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[19-Jun-2020 18:06:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[19-Jun-2020 18:10:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[19-Jun-2020 18:49:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[19-Jun-2020 18:49:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[20-Jun-2020 12:06:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[20-Jun-2020 12:54:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[20-Jun-2020 12:54:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[20-Jun-2020 12:55:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[20-Jun-2020 12:56:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[20-Jun-2020 13:06:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[22-Jun-2020 12:42:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[22-Jun-2020 12:42:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[22-Jun-2020 13:16:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[22-Jun-2020 13:16:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[22-Jun-2020 13:17:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 00:23:58 America/Fortaleza] PHP Warning:  include(../btnUp.php): failed to open stream: No such file or directory in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 25
+[23-Jun-2020 00:23:58 America/Fortaleza] PHP Warning:  include(../btnUp.php): failed to open stream: No such file or directory in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 25
+[23-Jun-2020 00:23:58 America/Fortaleza] PHP Warning:  include(): Failed opening '../btnUp.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 25
+[23-Jun-2020 13:58:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php on line 38
+[23-Jun-2020 13:58:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php on line 38
+[23-Jun-2020 13:58:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php on line 38
+[23-Jun-2020 13:58:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php on line 38
+[23-Jun-2020 13:58:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php on line 38
+[23-Jun-2020 13:58:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/usuarios_atualiza.php on line 38
+[23-Jun-2020 15:28:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:28:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:31:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:48:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:48:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:48:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:49:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:49:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[23-Jun-2020 15:50:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 18:00:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 18:00:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:06:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:06:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:17:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:18:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:19:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:22:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:23:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:41:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:42:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:51:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:52:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:54:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:55:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[24-Jun-2020 20:56:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[25-Jun-2020 12:21:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:06:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:13:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:14:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:16:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:16:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:18:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:19:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:19:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:20:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:20:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:21:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:28:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:34:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:35:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 15:35:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:42:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:42:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:46:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:46:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:50:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:51:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:54:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:56:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[25-Jun-2020 20:56:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 61
+[26-Jun-2020 15:35:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strinwidth() in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:85
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 85
+[26-Jun-2020 15:35:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strinwidth() in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:85
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 85
+[26-Jun-2020 15:37:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strimgwidth() in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php:79
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_lista.php on line 79
+[26-Jun-2020 15:49:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:49:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:50:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:51:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:54:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:54:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:54:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:55:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:57:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 15:57:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:22:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:23:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:37:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:38:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:38:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:38:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:39:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:40:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:41:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:41:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:41:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:42:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[26-Jun-2020 20:43:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:01:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:01:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:02:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:02:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:03:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:04:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:04:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:06:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:06:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:06:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:07:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:08:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:08:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:46:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:46:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62
+[01-Jul-2020 15:49:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/iwane047/public_html/projetos/gullchat/admin/viagens_atualiza.php on line 62

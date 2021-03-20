@@ -1,0 +1,461 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    overflow-y:visible;
+}
+
+#margininclude{
+    margin-top: 45%;
+}
+
+/* BACKGROUND */
+.fundo{
+    background-color: #023D5E;
+}
+
+.fundoCard{
+    background-color: #002639;
+}
+
+.imgFundo{
+    background-image: url('../imagens/fundo.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.fundoTransparente{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* BOTÕES */
+.btnBack{
+    background:transparent;
+    transition: all 0.3s ease-in;
+}
+.btnBack:hover{
+    color: #00D646;
+    background:#00D646;
+}
+.a{
+    text-decoration: none;
+}
+
+.fechar{
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    background: #FF0000;
+    color: white;
+    cursor: pointer;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+.form{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.btn-enviar{
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #0078F2;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-out;
+    overflow-x: hidden;
+}
+
+.btn-enviar:hover{
+    background-color: #0078F2;
+    color: #FFF;
+}
+
+/* MENU */
+.nav{
+    padding: 5px 0 5px 5px;
+    border-radius: 0%;
+}
+.nav a{
+    padding-top: 2px;
+}
+.menu{
+    padding-bottom: 1px;
+    border: none;
+    margin-bottom: -1px;
+    border-radius: 0%;
+}
+.menuClose{
+    background: url("../svg/open.svg") no-repeat;
+    width: 38px;
+    height: 38px;
+}
+.menuOpen{
+    background: url("../svg/close.svg") no-repeat;
+    width: 38px;
+    height: 38px;
+}
+
+/* TEXTO */
+.fonteBranca{
+    color: #FFF;
+}
+.fonteVerde{
+    color: #1AF170;
+}
+
+.corFonteVermelho{
+    color: #FF4141;
+    font-weight: bold;
+}
+/* Borda */
+.borda{
+    border:none;
+}
+
+/* ESPAÇAMENTO */
+.espacamentoTopo{
+    padding-bottom: 10px;
+}
+
+/* ZOOM IMAGES */
+.zoom{
+    z-index: 10;
+    transition: all .2s;
+    transform: scale(1);
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* BOTÃO SCROLL UP FLUTUANTE */
+#btn-up{
+    width: 45px;
+    height: 45px;
+    display: none;
+    background-color: #0078F2;
+    background-image: url("../svg/Double-up.svg");
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+#btn-up:hover{
+    cursor: pointer;
+}
+
+/* BTN DESTAQUE */
+.btnDestaque{
+    position: absolute;
+    font-size: 1.2em;
+    top: -45px;
+    right: 780px;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: transparent;
+    color: #FEFB20;
+}
+
+@media screen and (max-width:1200px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -45px;
+        right: 645px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+@media screen and (max-width:990px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -545px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+@media screen and (max-width:760px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -600   px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+    #margininclude{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -405px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+@media screen and (max-width:430px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -430px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -420px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+@media screen and (max-width:360px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -410px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+@media screen and (max-width:350px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -420px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }
+}
+
+@media screen and (max-width:320px){
+    .btnDestaque{
+        position: absolute;
+        font-size: 1.2em;
+        top: -410px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        background: transparent;
+        color: #FEFB20;
+    }  
+}
+
+
+h1{
+    width: 100%;
+}
+/* MENU */
+.centralizar{
+    margin: auto;
+    width: 40%;
+}
+.opacidade{
+    display: inline-block;
+    transition: 0.8s all;
+    width: 100%;
+    background-color: #0009;
+}
+/* NAV BUSCA */
+#navbusca{
+    background-color: #000;
+    height: 70px;
+    padding-left: 400px;
+    overflow: hidden;
+}
+#navbusca #form_busca{
+width: 100%;
+line-height: 45px;
+
+}
+input[type=text]{
+    line-height: 40px;
+}
+
+/* NAV TRANSPARENTE */
+#main{
+    width: 100%;
+    height: 100vh;
+}
+.navprincipal{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    background-color: #0009;
+    line-height: 80px;
+    padding-left: 425px;
+    overflow: hidden;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.8s all;
+}
+nav ul li a{
+    color: #fff;
+    padding: 20px;
+}
+
+/* TEXTO */
+.fonteBranca{
+    color: #FFF;
+}
+.fonteVerde{
+    color: #00D646;
+}
+
+.rotuloPreco{
+    position: relative;
+    font-size: 20px;
+    top: 21px;
+    right: -1px;
+    width: 20%;
+    height: 40%;
+    background: #00D646;
+    border: 1px solid #00D646;
+    border-radius: 7px;
+    color: white;
+}
+
+.rotuloData{
+    position: relative;
+    font-size: 20px;
+    top: 21px;
+    right: 12px;
+    width: 20%;
+    height: 40%;
+    background: #00D646;
+    border: 1px solid #00D646;
+    border-radius: 7px;
+    color: white;
+}
+
+.rotuloViagem{
+    position: relative;
+    font-size: 22px;
+    top: 21px;
+    right: -45px;
+    width: 70%;
+    height: 40%;
+    background: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 7px;
+    color: white;
+}
+
+.data{
+    width: 90%;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #00D646;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #000;
+}
+
+.preco{
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    margin-left: 14px;
+    border: 1px solid #00D646;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #000;
+}
+
+.viagem{
+    width: 99%;
+    background-color: #8897AA;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+}
+
+.btnComprar{
+    background-color: #0078F2;
+    color: #FFF;
+    font-weight: 600;
+    padding-left: 70px; 
+    padding-right: 70px;
+    transition: all 0.2s ease-out;
+}
+
+.btnComprar:hover{
+    border: 1px solid #00D646;
+    background-color: #00D646;
+    color: #FFF;
+    padding: 10px;
+}
