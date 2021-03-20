@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadBook - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<header>
+    <div class="container hidden-xs">
+        <div class="col-md-9 rb-mar-top-57">
+            <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+        </div>
+        <div class="col-md-3 rb-mar-top-57 rb-mar-top-70">
+            <a class="rb-login" href="#"> <span class="glyphicon glyphicon-user"></span> Login</a>
+            <a class="rb-register" href="#">Registrar-se</a>
+        </div>
+    </div>
+    <!-- Navbar Primária -->
+    <nav class=" container nav rb-mar-top-37 rb-bgc-transparent rb-text-white">
+        <div class="container">
+            <!-- Inicio Agrupamento para exibição MOBILE -->
+            <div id="topo" class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed menuClose" data-toggle="collapse"
+                    data-target="#defaultNavbar" aria-expanded="false">
+                </button>
+                <a class="visible-xs" href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+            </div>
+            <!-- Fim Agrupamento para exibição MOBILE -->
+            <div class="collapse navbar-collapse" id="defaultNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="../index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: #FFF;">
+                            CATEGORIAS
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"> Nacionais</a></li>
+                            <li><a href="#"> Internacionais</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" style="color: #FFF;">ESCRITORES</a></li>
+                    <li><a href="#" style="color: #FFF;">MEUS LIVROS</a></li>
+                    <li><a href="#" style="color: #FFF;">FAVORITOS</a></li>
+                </ul>
+                <!-- Nav direita -->
+                <ul class="nav navbar-nav navbar-right menu">
+                    <!-- form de busca -->
+                    <form action="#" method="post" name="form_busca" id="form_busca"
+                        class="navbar-form navbar-left visible-lg-up" role="search">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Busque aqui o local desejado"
+                                    name="buscar" id="buscar" size="30" required>
+                                <span class="input-group-btn">
+                                    <button type="submit" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </ul>
+                <a class="rb-login visible-xs" href="#"> <span class="glyphicon glyphicon-user"></span> Login</a>
+                <a class="rb-register visible-xs" href="#">Registrar-se</a>
+            </div>
+        </div><!-- fechamento container-fluid -->
+    </nav>
+</header>
+
+<body class="fundoImg">
+    <!-- Carousell Jogos-->
+    <section id="header">
+        <div class="container-fluid fundo">
+            <div class="container fundo">
+                <div class="row">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/guerracivil.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/guerracivil.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/guerracivil.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+                                    <div class=" fundoTransparente zoom">
+                                        <div>
+                                            <img src="svg/morteCap.svg" class="img-responsive">
+                                            <div class="gameDetail"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="livros" class="container rb-text-white">
+        <h3>Recentes</h3>
+        <!-- 01 -->
+        <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+            <div class=" fundoTransparente zoom">
+                <div>
+                    <img src="svg/guerracivil.svg" class="img-responsive">
+                    <div class="gameDetail"></div>
+                </div>
+                <button class="btn btn-default btn-block" type="submit">R$ 2.619,00</button>
+                <button class="btn btn-primary btn-block" type="submit">Ver Detalhes</button>
+            </div>
+        </div>
+        <!-- 02 -->
+        <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+            <div class=" fundoTransparente zoom">
+                <div>
+                    <img src="svg/morteCap.svg" class="img-responsive">
+                    <div class="gameDetail"></div>
+                </div>
+                <button class="btn btn-default btn-block" type="submit">R$ 2.619,00</button>
+                <button class="btn btn-primary btn-block" type="submit">Ver Detalhes</button>
+            </div>
+        </div>
+        <!-- 03 -->
+        <div class="col-md-3 col-sm-4 col-xs-4 espacamentoTopo">
+            <div class=" fundoTransparente zoom">
+                <div>
+                    <img src="svg/HP1.svg" class="img-responsive">
+                    <div class="gameDetail"></div>
+                </div>
+                <button class="btn btn-default btn-block" type="submit">R$ 2.619,00</button>
+                <button class="btn btn-primary btn-block" type="submit">Ver Detalhes</button>
+            </div>
+        </div>
+        <!-- 04 -->
+        <div class="col-md-3 col-sm-6 col-xs-12 espacamentoTopo">
+            <div class=" fundoTransparente zoom">
+                <div>
+                    <img src="svg/crepusculo.svg" class="img-responsive">
+                    <div class="gameDetail"></div>
+                </div>
+                <button class="btn btn-default btn-block" type="submit">R$ 2.619,00</button>
+                <button class="btn btn-primary btn-block" type="submit">Ver Detalhes</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
