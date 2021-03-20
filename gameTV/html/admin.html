@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GameStore - Games</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/ldbtn.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../svg/favicon.ico" />
+</head>
+
+<body class="fundo">
+    <!-- Navbar Primária -->
+    <nav class="nav navbar navbar-inverse menu">
+        <div class="container-fluid">
+            <!-- Agrupamento para exibição MOBILE -->
+            <div id="topo" class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed menuClose" data-toggle="collapse"
+                    data-target="#defaultNavbar" aria-expanded="false">
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/Logo.svg" alt="">
+                </a>
+            </div>
+            <!-- Nav direita -->
+            <div class="collapse navbar-collapse" id="defaultNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="../index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li class="dropdown">
+                        <a class="active dropdown-toggle" data-toggle="dropdown" href="../html/produtos.html">PRODUTOS
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/html/games.html">Games</a></li>
+                            <li><a href="/html/perifericos.html">Periféricos</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="contact">CONTATO</a></li>
+                    <li class=""><a href="sobre.html">SOBRE</a></li>
+                </ul>
+            </div>
+        </div><!-- fechamento container-fluid -->
+    </nav>
+
+    <!-- Comunicado -->
+    <div class="container-fluid fundo">
+        <div id="comunicado" class="contanier">
+            <h1 class="text-center fundoVermelho espacamentoTopo">Devido ao COVID-19 estaremos fechados até o dia
+                01/06/2020</h1>
+        </div>
+    </div>
+
+    <!-- Painel Administrativo -->
+    <div class="container-fluid">
+        <div class="container fundo2">
+            <h1 class="text-center fundo4 bold">Painel Administrativo GameStore </h1>
+            <div class="col-md-4">
+                <h3 class="alert alert-info">Produtos</h3>
+                <button class="btn btn-info btn-block"> <span class="glyphicon glyphicon-plus"></span>
+                    Adicionar
+                </button>
+                <button class="btn btn-warning btn-block"> <span class="glyphicon glyphicon-refresh"></span>
+                    Alterar
+                </button>
+                <button class="btn btn-danger btn-block"> <span class="glyphicon glyphicon-trash"></span>
+                    Excluir
+                </button>
+            </div>
+            <div class="col-md-4">
+                <h3 class="alert alert-success">Usuários</h3>
+                <button class="btn btn-info btn-block"> <span class="glyphicon glyphicon-plus"></span>
+                    Adicionar
+                </button>
+                <button class="btn btn-warning btn-block"> <span class="glyphicon glyphicon-refresh"></span>
+                    Alterar
+                </button>
+                <button class="btn btn-danger btn-block"> <span class="glyphicon glyphicon-trash"></span>
+                    Excluir
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Rodapé -->
+    <div id="rodape-1" class="container-fluid navbar-fixed-bottom">
+        <div id="rodapeInterno" class="container">
+            <div class="col-md-4 col-xs-6 centralizado">
+                <h4 class="text bold1">LOCALIZAÇÂO</h4>
+                <p>Rua do Sol, 395 - Vila Barth</p>
+                <p>Itapetininga - São Paulo</p>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <h4 class="centralizado text bold1">REDES SOCIAIS</h4>
+                <div class="centralizado">
+                    <a href="#"><img src="../svg/Facebook.svg" alt="facebook" class="social"></a>
+                    <a href="#"><img src="../svg/Youtube.svg" alt="Email" class="social"></a>
+                    <a href="#"><img src="../svg/Twetter.svg" alt="Twitter" class="social"></a>
+                    <a href="#"><img src="../svg/Instagram.svg" alt="Website" class="social"></a>
+                    <a href="#"><img src="../svg/Linkedin.svg" alt="Linkedin" class="social"></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 hidden-xs centralizado">
+                <h4 class="text bold1">SAIBA MAIS</h4>
+                <p>Blog</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé 2-->
+    <div class="container-fluid footer corFonteBranca centralizado navbar-fixed-bottom">
+        <div class="container">
+            <h6>Copyright&copy; GamesStore 2020</h6>
+        </div>
+    </div>
+
+    <!-- Modal Contato -->
+    <div id="modal-contato" class="modal-container">
+        <div class="modal-contato">
+            <button class="fechar">X</button>
+            <h3 class="centralizado bold">CONTATO</h3>
+            <form action="">
+                <div class="form-group">
+                    <label class="corFonteBranca" for="Nome">Nome</label>
+                    <input type="nome" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label class="corFonteBranca" for="Email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
+                </div>
+                <label class="corFonteBranca" for="Mensagem">Mensagem</label>
+                <div class="form-group">
+                    <textarea name="mensagem" id="mensagem" cols="45" rows="5"
+                        placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <input type="submit" class="btn btn-enviar btn-block" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

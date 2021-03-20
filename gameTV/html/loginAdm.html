@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>GamesStore</title>
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Meu CSS -->
+    <link href="../css/estilo.css" rel="stylesheet">
+</head>
+
+<body class="fundo">
+    <!-- Inicio Topo -->
+    <nav class="nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html"><img src="../img/Logo.svg" class="img-responsive"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">JOGOS
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">GTA V</a></li>
+                        <li><a href="#">Cities Skylines</a></li>
+                        <li><a href="#">PES</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <div class="alert fundo2 corFonteBranca espaco" role="alert">
+                    <h2 class="fundo2">
+                        <a href="../index.html">
+                            <button class="btn btn-info" type="button">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            </button>
+                        </a>
+                        Entrar
+                    </h2>
+                    <form class="espacamento" action="../index.html" name="form_usuario_insere" id="form_usuario_insere"
+                        method="post" enctype="multipart/form-data">
+                        <!-- input login_usuario-->
+                        <label for="login_usuario">Login:</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </span>
+                            <input type="text" name="login_usuario" id="login_usuario" autofocus maxlength="15"
+                                placeholder="Digite o login" class="form-control" required>
+                        </div>
+                        <br>
+                        <!-- input senha_usuario -->
+                        <label for="senha_usuario">Senha:</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                            </span>
+                            <input type="password" name="senha_usuario" id="senha_usuario" maxlenght="15"
+                                placeholder="Digite a senha" class="form-control" required>
+                        </div>
+                        <h6><a href="#">Esqueci minha senha</a></h6>
+                        <!-- Radio nivel_usuario -->
+                        <label for="nivel_usuario">Nível:</label>
+                        <div class="input-group">
+                            <label class="radio-inline" for="nivel_usuario_c">
+                                <input type="radio" name="nivel_usuario" id="nivel_usuario" value="com" checked>Comum
+                            </label>
+                            <label class="radio-inline" for="nivel_usuario_s">
+                                <input type="radio" name="nivel_usuario" id="nivel_usuario" value="sup">SuperUser
+                            </label>
+                        </div>
+                        <br>
+                        <!-- btn enviar -->
+                        <input type="submit" value="Entrar" role="button" name="enviar" id="enviar"
+                            class="btn btn-block btn-info">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <div id="rodape-1" class="container-fluid navbar-fixed-bottom">
+        <div id="rodapeInterno" class="container">
+            <div class="col-md-4 col-xs-6 centralizado">
+                <h4 class="text bold1">LOCALIZAÇÂO</h4>
+                <p>Rua do Sol, 395 - Vila Barth</p>
+                <p>Itapetininga - São Paulo</p>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <h4 class="centralizado text bold1">REDES SOCIAIS</h4>
+                <div class="centralizado">
+                    <a href="#"><img src="../svg/Facebook.svg" alt="facebook" class="social"></a>
+                    <a href="#"><img src="../svg/Youtube.svg" alt="Email" class="social"></a>
+                    <a href="#"><img src="../svg/Twetter.svg" alt="Twitter" class="social"></a>
+                    <a href="#"><img src="../svg/Instagram.svg" alt="Website" class="social"></a>
+                    <a href="#"><img src="../svg/Linkedin.svg" alt="Linkedin" class="social"></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 hidden-xs centralizado">
+                <h4 class="text bold1">SAIBA MAIS</h4>
+                <p>Blog</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer corFonteBranca centralizado navbar-fixed-bottom">
+        <div class="container">
+            <h6>Copyright&copy; GamesStore 2020</h6>
+        </div>
+    </div>
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

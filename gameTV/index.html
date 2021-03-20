@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameTV - Home</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/ldbtn.min.css" rel="stylesheet">
+  <link href="css/side.css" rel="stylesheet">
+  <link rel="shortcut icon" href="svg/favicon.ico" />
+  <script src="https://kit.fontawesome.com/abf65111b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="fundo">
+  <!-- Navbar Primária -->
+  <nav class="nav navbar navbar-inverse menu">
+    <div class="container-fluid">
+      <!-- Agrupamento para exibição MOBILE -->
+      <div id="topo" class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed menuClose" data-toggle="collapse"
+          data-target="#defaultNavbar" aria-expanded="false">
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/Logo.svg" alt="">
+        </a>
+      </div>
+      <!-- Nav direita -->
+      <div class="collapse navbar-collapse" id="defaultNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li><a href="#emAlta"><span class="glyphicon glyphicon-fire"></span> Em alta</a></li>
+          <li><a href="#dados"><span class="glyphicon glyphicon-th-list"></span> Inscrições</a></li>
+          <li><a href="#categorias"><span class="glyphicon glyphicon-list-alt"></span> Categporias</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              <span class="glyphicon glyphicon-list"></span>
+              BIBLIOTECA
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#dados"><span class="glyphicon glyphicon-refresh"></span> Histórico</a></li>
+              <li><a href="#dados"><span class="glyphicon glyphicon-play-circle"></span> Seus vídeos</a></li>
+              <li><a href="#dados"><span class="glyphicon glyphicon-time"></span> Assistir mais tarde</a></li>
+              <li><a href="#dados"><span class="glyphicon glyphicon-heart"></span> Favoritos</a></li>
+            </ul>
+          </li>
+          <li><a class="contact"><span class="glyphicon glyphicon-envelope"></span> Contato</a></li>
+        </ul>
+        <!-- Nav direita -->
+        <div class="">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-th"></span></a></li>
+            <li><a href="#"><i class="fas fa-bell"></i></a></li>
+            <li><a href="html/login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- fechamento container-fluid -->
+  </nav>
+
+  <!-- Botão Up Flutuante -->
+  <div class="btn-up jbtnup">
+    <nav>
+      <a href="" class="btn-up-link jbtnuplink"></a>
+    </nav>
+  </div>
+
+  <!-- Side -->
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="about">About</a>
+    <a href="#" id="blog">Blog</a>
+    <a href="#" id="projects">Projects</a>
+    <a href="#" id="contact">Contact</a>
+  </div>
+
+  <!-- Comunicado -->
+  <div id="comunicado" class="container-fluid fundo">
+    <h1 class="text-center fundoVermelho espacamento">#FiqueEmCasa #FiqueComAGente</h1>
+  </div>
+
+  <!-- baguio de cima -->
+  <div class="container-fluid preencher imgFundo">
+    <div class="container">
+      <div class="jumbotron fundoTransparente">
+        <h1>Bem Vindo ao GameTV!</h1>
+        <p>Sua nova plataforma de Gameplays, Stream e muito mais!!</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Fazer um tuor.</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vídeos-->
+  <div id="portfolio" class="container-fluid portifolio espacamento">
+    <div id="emAlta" class="container">
+      <h3 class="text-left bold">Em Alta</h3>
+      <div class="col-sm-12 col-md-4 espacamento">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tBe__R0y_wc"></iframe>
+        </div>
+        <h3 class="text-left textArticle">KARMA instantâneo</h3>
+        <h3 class="semEspacoTopo"><small class="corFonteBranca"> 169.747 visualizações • 23 de mar. de 2020
+          </small></h3>
+        <button class="btn btn-success" type="submit">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          Assistir
+        </button>
+        <button class="btn btn-info" type="submit">
+          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+          Detalhes do vídeo
+        </button>
+        <button class="btn btn-danger" type="submit">
+          <span class="glyphicon glyphicon-heart-empty fav" aria-hidden="true"></span>
+          Fav
+        </button>
+      </div>
+      <div class="col-md-4 col-sm-12 espacamento">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g82IFnXMcoo"></iframe>
+        </div>
+        <h3 class="text-left textArticle">ROBOCOP no Mortal Kombat
+        </h3>
+        <h3 class="semEspacoTopo"><small class="corFonteBranca"> 41.453 visualizações•17 de jun. de 2020</small></h3>
+        <button class="btn btn-success" type="submit">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          Assistir
+        </button>
+        <button class="btn btn-info" type="submit">
+          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+          Detalhes do vídeo
+        </button>
+        <button class="btn btn-danger" type="submit">
+          <span class="glyphicon glyphicon-heart-empty fav" aria-hidden="true"></span>
+          Fav
+        </button>
+      </div>
+      <div class="col-md-4 col-sm-12 espacamento">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nzmK3-vI5C8"></iframe>
+        </div>
+        <h3 class="text-left textArticle">As 2 melhores armas do drop
+        </h3>
+        <h3 class="semEspacoTopo"><small class="corFonteBranca"> 113.673 visualizações•16 de jun. de 2020</small></h3>
+        <button class="btn btn-success" type="submit">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          Assistir
+        </button>
+        <button class="btn btn-info" type="submit">
+          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+          Detalhes do vídeo
+        </button>
+        <button class="btn btn-danger" type="submit">
+          <span class="glyphicon glyphicon-heart-empty fav" aria-hidden="true"></span>
+          Fav
+        </button>
+      </div>
+      <div class="col-md-4 col-sm-12 espacamento">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0O4P856tcyE"></iframe>
+        </div>
+        <h3 class="text-left textArticle"> O melhor salto pelas montanhas</h3>
+        <h3 class="semEspacoTopo"><small class="corFonteBranca"> 135.271 visualizações•17 de jun. de 2020</small></h3>
+        <button class="btn btn-success" type="submit">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          Assistir
+        </button>
+        <button class="btn btn-info" type="submit">
+          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+          Detalhes do vídeo
+        </button>
+        <button class="btn btn-danger" type="submit">
+          <span class="glyphicon glyphicon-heart-empty fav" aria-hidden="true"></span>
+          Fav
+        </button>
+      </div>
+      <div class="col-md-4 col-sm-12 espacamento">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0CGsS9sncMg"></iframe>
+        </div>
+        <h3 class="text-left textArticle">Joguei o battle royale grátis do COD!</h3>
+        <h3 class="semEspacoTopo"><small class="corFonteBranca"> 1.691.480 visualizações•9 de mar. de 2020</small></h3>
+        <button class="btn btn-success" type="submit">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          Assistir
+        </button>
+        <button class="btn btn-info" type="submit">
+          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+          Detalhes do vídeo
+        </button>
+        <button class="btn btn-danger" type="submit">
+          <span class="glyphicon glyphicon-heart-empty fav" aria-hidden="true"></span>
+          Fav
+        </button>
+      </div>
+      <div class="col-md-4 col-sm-12 espacamento">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wwjKRsQD1KQ"></iframe>
+        </div>
+        <h3 class="text-left textArticle">KARMA instantâneo</h3>
+        <h3 class="semEspacoTopo"><small class="corFonteBranca"> 73.243 visualizações•5 de jun. de 2020</small></h3>
+        <button class="btn btn-success" type="submit">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          Assistir
+        </button>
+        <button class="btn btn-info" type="submit">
+          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+          Detalhes do vídeo
+        </button>
+        <button class="btn btn-danger" type="submit">
+          <span class="glyphicon glyphicon-heart-empty fav" aria-hidden="true"></span>
+          Fav
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- opções -->
+  <div class="container-fluid">
+    <div id="categorias" class="container fundo2">
+      <h3 class=" breadcrumb text-center">Categorias</h3>
+      <div class="hidden-xs col-sm-3 col-md-3 ">
+        <ul class="list-group">
+          <button type="button" class="list-group-item">PUBG<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Minecraft<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">PES 2020<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Cities Skylines<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">GTA V<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Mortal Kombat<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Free Fire<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">COD Warzone<span class="badge">50</span></button>
+        </ul>
+      </div>
+      <div class="hidden-xs col-sm-3 col-md-3 ">
+        <ul class="list-group">
+          <button type="button" class="list-group-item">PUBG<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Minecraft<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">PES 2020<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Cities Skylines<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">GTA V<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Mortal Kombat<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Free Fire<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">COD Warzone<span class="badge">50</span></button>
+        </ul>
+      </div>
+      <div class="hidden-xs col-sm-3 col-md-3 ">
+        <ul class="list-group">
+          <button type="button" class="list-group-item">PUBG<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Minecraft<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">PES 2020<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Cities Skylines<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">GTA V<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Mortal Kombat<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Free Fire<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">COD Warzone<span class="badge">50</span></button>
+        </ul>
+      </div>
+      <div class="hidden-xs col-sm-3 col-md-3 ">
+        <ul class="list-group">
+          <button type="button" class="list-group-item">PUBG<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Minecraft<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">PES 2020<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Cities Skylines<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">GTA V<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Mortal Kombat<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">Free Fire<span class="badge">50</span></button>
+          <button type="button" class="list-group-item">COD Warzone<span class="badge">50</span></button>
+        </ul>
+      </div>
+      <button class="btn btn-block verMais">Listar todas as categorias<span class=""></span></button>
+      <br>
+    </div>
+  </div>
+
+  <!-- Live -->
+  <div id="gratis" class="container-fluid fundo corFonteBranca">
+    <div class="container espacamentoTopo">
+      <div class="container-fluid">
+        <h3 class="text-center fundoVermelho">Ao Vivo agora</h3>
+        <!-- GTA V -->
+        <div class="col-md-6 col-xs-12 imagem50">
+          <div class="team">
+            <a href=""><img src="img/live.svg" class="img-responsive team__img"></a>
+            <div class="team__detail"></div>
+            <button class="btnLive">LIVE</button>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">
+            Assistir
+          </button>
+          <h3 class="text-left textArticle">PUBG COM A GALERA</h3>
+          <h3 class="semEspacoTopo"><small class="corFonteBranca"> Netenho Cavalcante</small></h3>
+        </div>
+        <div class="col-md-6 col-xs-12 imagem50">
+          <div class="team">
+            <a href=""><img src="img/live2.svg" class="img-responsive team__img"></a>
+            <div class="team__detail"></div>
+            <button class="btnLive">LIVE</button>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">
+            Assistir
+          </button>
+          <h3 class="text-left textArticle"> LIVE MINECRAFT</h3>
+          <h3 class="semEspacoTopo"><small class="corFonteBranca"> GameplayRJ</small></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dados -->
+  <div class="container-fluid">
+    <div id="dados" class="container fundo2">
+      <h3 class=" breadcrumb text-center">Seus Resultados</h3>
+      <div class="hidden-xs col-sm-6 col-md-4">
+        <h3 class="text-center bold"> Inscrições</h3>
+        <ul class="list-group">
+          <li class="list-group-item">LipaoGamer
+            <img src="svg/Verificado.svg" alt="Verificado">
+            <span class="badge">50</span></li>
+          <li class="list-group-item">Netenho Cavalcante
+            <img src="svg/Verificado.svg" alt="Verificado">
+            <span class="badge">50</span></li>
+          <li class="list-group-item">Davy Jones LIVE
+            <img src="svg/Verificado.svg" alt="Verificado">
+            <span class="badge">50</span></li>
+          <li class="list-group-item">GameplayRJ
+            <img src="svg/Verificado.svg" alt="Verificado">
+            <span class="badge">50</span></li>
+          <li class="list-group-item">alanzoka <img src="svg/Verificado.svg" alt="Verificado">
+            <span class="badge">50</span></li>
+          <button type="button" class="btn btn-block btn-default"> Listar todas as Inscrições</button>
+        </ul>
+      </div>
+      <div class="hidden-xs col-sm-6 col-md-4">
+        <h3 class="text-center bold"> Favoritos</h3>
+        <ul class="list-group">
+          <li class="list-group-item">ROBOCOP no Mortal Kombat</li>
+          <li class="list-group-item">As 2 melhores armas do drop</li>
+          <li class="list-group-item">ROBOCOP no Mortal Kombat</li>
+          <li class="list-group-item">As 2 melhores armas do drop</li>
+        </ul>
+      </div>
+      <div class="hidden-xs col-sm-6 col-md-4">
+        <h3 class="text-center bold"> Histórico</h3>
+        <ul class="list-group">
+          <li class="list-group-item">ROBOCOP no Mortal Kombat</li>
+          <li class="list-group-item">As 2 melhores armas do drop</li>
+          <li class="list-group-item">Joguei o battle royale grátis do COD!</li>
+          <li class="list-group-item">ROBOCOP no Mortal Kombat</li>
+          <li class="list-group-item">As 2 melhores armas do drop</li>
+          <li class="list-group-item">Joguei o battle royale grátis do COD!</li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <h3 class="text-left bold">Engajamento</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" style="width: 70%">
+            <span class="sr-only">30% Complete (success)</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <h3 class="text-left bold">Fav</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" style="width: 67%">
+            <span class="sr-only">30% Complete (success)</span>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-block verMais">Ver relatório completo<span class=""></span></button>
+      <br>
+    </div>
+  </div>
+
+  <div class="container-fluid fundo corFonteBranca">
+    <div class="container espacamento">
+    </div>
+
+    <!-- Rodapé -->
+    <div id="rodape-1" class="container-fluid">
+      <div id="rodapeInterno" class="container">
+        <div class="col-md-4 col-xs-6 centralizado">
+          <h4 class="text bold1">LOCALIZAÇÂO</h4>
+          <p>Rua do Sol, 395 - Vila Barth</p>
+          <p>Itapetininga - São Paulo</p>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <h4 class="centralizado text bold1">REDES SOCIAIS</h4>
+          <div class="centralizado">
+            <a href="#"><img src="svg/Facebook.svg" alt="facebook" class="social"></a>
+            <a href="#"><img src="svg/Youtube.svg" alt="Email" class="social"></a>
+            <a href="#"><img src="svg/Twetter.svg" alt="Twitter" class="social"></a>
+            <a href="#"><img src="svg/Instagram.svg" alt="Website" class="social"></a>
+            <a href="#"><img src="svg/Linkedin.svg" alt="Linkedin" class="social"></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 hidden-xs centralizado">
+          <h4 class="text bold1">SAIBA MAIS</h4>
+          <p>Blog</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rodapé 2-->
+    <div class="container-fluid footer corFonteBranca centralizado">
+      <div class="container">
+        <h6>Copyright&copy; GameTV 2020</h6>
+      </div>
+    </div>
+
+    <!-- Modal Contato -->
+    <div id="modal-contato" class="modal-container">
+      <div class="modal-contato">
+        <button class="fechar">X</button>
+        <h3 class="centralizado bold">CONTATO</h3>
+        <form action="">
+          <div class="form-group">
+            <label class="corFonteBranca" for="Nome">Nome</label>
+            <input type="nome" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
+          </div>
+          <div class="form-group">
+            <label class="corFonteBranca" for="Email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
+          </div>
+          <label class="corFonteBranca" for="Mensagem">Mensagem</label>
+          <div class="form-group">
+            <textarea name="mensagem" id="mensagem" cols="45" rows="5" placeholder="Digite sua mensagem"></textarea>
+          </div>
+          <div>
+            <buitton type="button" class="btn btn-enviar btn-block">
+              <span class="glyphicon glyphicon-send"></span> Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="32" viewBox="0 0 156 32">
+  <defs>
+    <clipPath id="clip-Logo_">
+      <rect width="156" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_" data-name="Logo " clip-path="url(#clip-Logo_)">
+    <text id="gameTV" transform="translate(18 23)" fill="#0078f2" font-size="31" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">gameTV</tspan></text>
+  </g>
+</svg>
